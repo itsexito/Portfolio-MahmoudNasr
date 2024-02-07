@@ -1,0 +1,1 @@
+let iconic1=document.getElementById("iconic-1");iconic1.addEventListener("mousemove",e=>{let t=e.offsetX,i=e.offsetY,n=iconic1.clientWidth,c=iconic1.clientHeight,o=t-n/25,s=i-c/25;iconic1.style.transform=`translateX(${o}px)translateY(${s}px)`}),iconic1.addEventListener("mouseout",e=>{iconic1.style.transform=""});
